@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/jaemobird_permissions.iml" filepath="$PROJECT_DIR$/jaemobird_permissions.iml" />
+      <module fileurl="file://$PROJECT_DIR$/android/jaemobird_permissions_android.iml" filepath="$PROJECT_DIR$/android/jaemobird_permissions_android.iml" />
+      <module fileurl="file://$PROJECT_DIR$/example/android/jaemobird_permissions_example_android.iml" filepath="$PROJECT_DIR$/example/android/jaemobird_permissions_example_android.iml" />
+    </modules>
+  </component>
+</project>

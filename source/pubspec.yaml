@@ -1,0 +1,130 @@
+name: unicom_attendance
+description: A new Flutter project.
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.0.0-dev.68.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^0.1.2
+
+  cached_network_image: ^1.0.0
+  dio: ^1.0.9                           #http网络请求库
+  common_utils: ^1.0.9                  #常用小工具集合
+  json_annotation: ^2.0.0
+  shared_preferences: ^0.4.3
+  crypto: ^2.0.6                        #支持SHA-1、SHA-256、MD5、HMAC
+  event_bus: ^1.0.1
+  intl: ^0.15.7                       #这个包提供国际化和本地化功能，包括消息翻译、复数和性别、日期/数字格式和解析以及双向文本。
+  date_utils: ^0.1.0+2
+  image_picker: ^0.4.10
+  image_cropper: ^0.0.9
+  latlong: ^0.6.1
+  path_provider: ^0.5.0+1
+  jpush_flutter: 0.0.11
+  url_launcher: any
+  package_info: any
+  device_info: ^0.4.0+2
+  corsac_jwt: ^0.1.2
+  webview_flutter: ^0.3.9+1
+
+  flutter_easyrefresh: ^1.2.7 #上下拉刷新
+
+  baidu_location: 
+    path: ../plugins/baidu_location/
+  toast:
+    git: git://github.com/lumingyuan/JaemobirdToast.git
+  jaemobird_permissions:
+    path: ../plugins/jaemobird_permissions/
+  flutter_location_picker:       #省市区选择器
+    path: ../plugins/flutter_location_picker/
+  flutter_picker:
+    git: git://github.com/yangyxd/flutter_picker.git
+
+  flutter_localizations:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_launcher_icons: "^0.7.0" #启动图标替换插件
+  flutter_test:
+    sdk: flutter
+  json_serializable: ^2.0.0             #json解析库
+  build_runner: ^1.1.2
+
+  #如果需要替换启动图标
+  # 1、替换image_path_android，image_path_ios路径下的图片
+  # 2、运行：flutter packages pub run flutter_launcher_icons:main
+flutter_icons:
+  android: "launcher_icon" 
+  ios: true
+  image_path_android: "assets/1024.png"
+  image_path_ios: "assets/ios_1024.png"
+
+flutter:
+  uses-material-design: true
+
+  assets:
+   - assets/images/open_eye_ico.png
+   - assets/images/close_eye_ico.png
+   - assets/images/splash_bg.png
+   - assets/images/def_head.png
+   - assets/images/home_head_bg.png
+   - assets/images/tab_home_ico_h.png
+   - assets/images/tab_home_ico_n.png
+   - assets/images/tab_me_ico_h.png
+   - assets/images/tab_me_ico_n.png
+   - assets/images/pass_ico.png
+   - assets/images/account_ico.png
+   - assets/images/person_info_ico.png
+   - assets/images/person_setting_ico.png
+   - assets/images/person_face_ico.png
+   - assets/images/person_car_ico.png
+   - assets/images/person_head_bg.png
+   - assets/images/home_apply_ico.png
+   - assets/images/home_clock_ico.png
+   - assets/images/home_approval_ico.png
+   - assets/images/home_statistics_ico.png
+   - assets/images/home_travel_ico.png
+   - assets/images/home_leave_ico.png
+   - assets/images/home_patch_ico.png
+   - assets/images/home_outwork_ico.png
+   - assets/images/home_qrcode_ico.png
+   - assets/images/badge.png
+   - assets/images/badge_new.png
+   - assets/images/login_logo.png
+   - assets/images/loc_ico.png
+   - assets/images/time_ico.png
+   - assets/images/relocate_ico.png
+   - assets/images/expand_more.png
+   - assets/images/no_data.png
+   - assets/images/auto_clock_sign.png
+   - assets/images/loc_grey_ico.png
+   - assets/images/state_lack.png
+   - assets/images/state_normal.png
+   - assets/images/state_early.png
+   - assets/images/state_outwork.png
+   - assets/images/state_late.png
+   - assets/images/state_leave.png
+   - assets/images/add_picture.png
+   - assets/images/face_clock_sign.png
+   - assets/images/state_agreen.png
+   - assets/images/state_refuse.png
+   - assets/images/state_wait.png
+   - assets/images/color_line.png
+   - assets/images/state_stepper_wait.png
+   - assets/images/state_stepper_refuse.png
+   - assets/images/state_stepper_agree.png
+   - assets/images/stepper_n.png
+   - assets/images/stepper_h.png
+   - assets/images/mobile_change_success.png
+   - assets/images/pass_change_success.png
+   - assets/images/placeholder.png
+   - assets/images/code_ico.png
+
+

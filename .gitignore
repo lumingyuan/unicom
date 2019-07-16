@@ -1,0 +1,14 @@
+.DS_Store
+source/build/*
+source/.dart_tool/*
+source/android/.idea/*
+source/android/.gradle/*
+source/.packages
+source/.flutter-plugins
+source/android/local.properties
+source/ios/Pods/*
+source/android/.idea/*
+source/android/app/release/*
+source/kernel_blob.bin
+source/ios/Flutter/*
+
