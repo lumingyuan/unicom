@@ -27,6 +27,9 @@ class CompanyDataModel extends Object {
   @JsonKey(name: 'outApprovalId')
   int outApprovalId;
 
+  @JsonKey(name: 'companyId')
+  int companyId;
+
   @JsonKey(name: 'companyName')
   String companyName;
 
@@ -51,6 +54,7 @@ class CompanyDataModel extends Object {
     this.leavelApprovalId,
     this.workday,
     this.outApprovalId,
+    this.companyId,
     this.companyName,
     this.clockApprovalId,
     this.attendanceGroup,
@@ -137,4 +141,3 @@ class ClockTime extends Object {
 
   Map<String, dynamic> toJson() => _$ClockTimeToJson(this);
 }
-

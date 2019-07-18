@@ -19,7 +19,7 @@ class _QRCodeVCState extends State<QRCodeVC> {
     var token = builder.getSignedToken(signer);
 
     String url =
-        'https://ywy.tzunicom.com/wxMain/ClientController/toShowQRCode?accessToken=$token&param=${UserManager.instance.currentJobId}';
+        'https://ywy.tzunicom.com/wxMain/ClientController/toShowQRCode?accessToken=$token&param=${UserManager.instance.currentCompanyModel.companyId}';
     lLog(url);
 
     return Scaffold(
