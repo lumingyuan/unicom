@@ -1,0 +1,1 @@
+../../../../.symlinks/plugins/jaemobird_permissions/ios/Classes/JaemobirdPermissionsPlugin.h
