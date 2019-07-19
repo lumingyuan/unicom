@@ -1,4 +1,5 @@
 import 'dart:io';
+import 'dart:async';
 
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
@@ -76,7 +77,7 @@ class ImageUtil {
   }
 
   /// 递归方式 计算文件的大小
-  static Future<double> _getTotalSizeOfFilesInDir(
+  static Future<double> getTotalSizeOfFilesInDir(
       final FileSystemEntity file) async {
     try {
       if (file is File) {
@@ -88,7 +89,7 @@ class ImageUtil {
         double total = 0;
         if (children != null)
           for (final FileSystemEntity child in children)
-            total += await _getTotalSizeOfFilesInDir(child);
+            total += await getTotalSizeOfFilesInDir(child);
         return total;
       }
       return 0;
