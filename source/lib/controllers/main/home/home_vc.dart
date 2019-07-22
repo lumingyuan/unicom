@@ -134,7 +134,7 @@ class _HomeVCState extends State<HomeVC> with WidgetsBindingObserver {
         }
       }
     } else {
-      Toast.showToast(ret.message);
+      ToastUtil.shortToast(context, ret.message);
     }
   }
 
