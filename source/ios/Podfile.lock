@@ -3,40 +3,127 @@ PODS:
     - BMKLocationKit
     - Flutter
   - BMKLocationKit (1.4.0)
+  - device_info (0.0.1):
+    - Flutter
   - Flutter (1.0.0)
+  - flutter_picker (0.0.1):
+    - Flutter
+  - FMDB (2.7.5):
+    - FMDB/standard (= 2.7.5)
+  - FMDB/standard (2.7.5)
+  - image_cropper (0.0.1):
+    - Flutter
+    - TOCropViewController (~> 2.3.8)
+  - image_picker (0.0.1):
+    - Flutter
   - jaemobird_permissions (0.0.1):
     - Flutter
   - JCore (1.2.6)
   - JPush (3.1.2):
     - JCore (~> 1.2.6)
+  - jpush_flutter (0.0.2):
+    - Flutter
+    - JPush
+  - MBProgressHUD (1.1.0)
+  - package_info (0.0.1):
+    - Flutter
+  - path_provider (0.0.1):
+    - Flutter
+  - shared_preferences (0.0.1):
+    - Flutter
+  - sqflite (0.0.1):
+    - Flutter
+    - FMDB (~> 2.7.2)
+  - toast (0.0.1):
+    - Flutter
+    - MBProgressHUD
+  - TOCropViewController (2.3.8)
+  - url_launcher (0.0.1):
+    - Flutter
+  - webview_flutter (0.0.1):
+    - Flutter
 
 DEPENDENCIES:
   - baidu_location (from `.symlinks/plugins/baidu_location/ios`)
+  - device_info (from `.symlinks/plugins/device_info/ios`)
   - Flutter (from `.symlinks/flutter/ios-release`)
+  - flutter_picker (from `.symlinks/plugins/flutter_picker/ios`)
+  - image_cropper (from `.symlinks/plugins/image_cropper/ios`)
+  - image_picker (from `.symlinks/plugins/image_picker/ios`)
   - jaemobird_permissions (from `.symlinks/plugins/jaemobird_permissions/ios`)
   - JPush
+  - jpush_flutter (from `.symlinks/plugins/jpush_flutter/ios`)
+  - package_info (from `.symlinks/plugins/package_info/ios`)
+  - path_provider (from `.symlinks/plugins/path_provider/ios`)
+  - shared_preferences (from `.symlinks/plugins/shared_preferences/ios`)
+  - sqflite (from `.symlinks/plugins/sqflite/ios`)
+  - toast (from `.symlinks/plugins/toast/ios`)
+  - url_launcher (from `.symlinks/plugins/url_launcher/ios`)
+  - webview_flutter (from `.symlinks/plugins/webview_flutter/ios`)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - BMKLocationKit
+    - FMDB
     - JCore
     - JPush
+    - MBProgressHUD
+    - TOCropViewController
 
 EXTERNAL SOURCES:
   baidu_location:
     :path: ".symlinks/plugins/baidu_location/ios"
+  device_info:
+    :path: ".symlinks/plugins/device_info/ios"
   Flutter:
     :path: ".symlinks/flutter/ios-release"
+  flutter_picker:
+    :path: ".symlinks/plugins/flutter_picker/ios"
+  image_cropper:
+    :path: ".symlinks/plugins/image_cropper/ios"
+  image_picker:
+    :path: ".symlinks/plugins/image_picker/ios"
   jaemobird_permissions:
     :path: ".symlinks/plugins/jaemobird_permissions/ios"
+  jpush_flutter:
+    :path: ".symlinks/plugins/jpush_flutter/ios"
+  package_info:
+    :path: ".symlinks/plugins/package_info/ios"
+  path_provider:
+    :path: ".symlinks/plugins/path_provider/ios"
+  shared_preferences:
+    :path: ".symlinks/plugins/shared_preferences/ios"
+  sqflite:
+    :path: ".symlinks/plugins/sqflite/ios"
+  toast:
+    :path: ".symlinks/plugins/toast/ios"
+  url_launcher:
+    :path: ".symlinks/plugins/url_launcher/ios"
+  webview_flutter:
+    :path: ".symlinks/plugins/webview_flutter/ios"
 
 SPEC CHECKSUMS:
   baidu_location: 168c062efce9bf33fb9ed204c6ed3b86f1d6c3b2
   BMKLocationKit: ca1343eea19b2f2e999d1ad51bd6a1f1220f3456
+  device_info: 3ebad48f726348f69abd802f3334a8d1ed795fbd
   Flutter: 58dd7d1b27887414a370fcccb9e645c08ffd7a6a
+  flutter_picker: 8ff0d7440b4e8327fcc9e6b21a39ef9369e697c7
+  FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
+  image_cropper: 189eec25d148f56694f670438e9458323ba2880a
+  image_picker: a211f28b95a560433c00f5cd3773f4710a20404d
   jaemobird_permissions: b9ced5d88599142e2208708fd200fb046e1daa12
   JCore: cae516dd2bf1a73b578ce6e1065abd49e709e0f7
   JPush: d0cead70ba223a6a3b52749899ebda830dfbc49a
+  jpush_flutter: d7e3a79466eb9447fd940233f02661b514f137c6
+  MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
+  package_info: 78cabb3c322943c55d39676f4a5bfc748c01d055
+  path_provider: f96fff6166a8867510d2c25fdcc346327cc4b259
+  shared_preferences: 1feebfa37bb57264736e16865e7ffae7fc99b523
+  sqflite: ff1d9da63c06588cc8d1faf7256d741f16989d5a
+  toast: 57ecd8af331a9e3e0cb39c75d316be1508d154ee
+  TOCropViewController: 0a075f02c253e88095143bbac7b013fc6fba5090
+  url_launcher: 0067ddb8f10d36786672aa0722a21717dba3a298
+  webview_flutter: 1aa7604e6cdb451a9b7ed2c37d5454c0b440246b
 
 PODFILE CHECKSUM: ff8bb3944d424314e7a090a73ce3db6f14b3d535
 

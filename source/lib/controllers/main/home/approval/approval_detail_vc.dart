@@ -19,8 +19,7 @@ class _ApprovalDetailVCState extends State<ApprovalDetailVC> {
   ApprovalDetailModel _model;
 
   bool get showBottom {
-    return _model != null &&
-        _model?.recordState != 2 &&
+    return _model?.recordState == 0 &&
         _model?.currentApprover?.jobId == UserManager.instance.currentJobId;
   }
 
@@ -312,7 +311,8 @@ class _ApprovalDetailVCState extends State<ApprovalDetailVC> {
       for (int i = 0; i < _model.approveRecord.length; ++i) {
         steppers.add(ApprovalStepperView(_model.approveRecord[i], i == 0,
             i == _model.approveRecord.length - 1,
-            isSelf: _model.jobId == _model.approveRecord[i].jobId));
+            isSelf: UserManager.instance.currentJobId ==
+                _model.approveRecord[i].jobId));
       }
       return Container(
         color: Colors.white,
